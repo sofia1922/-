@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.home-page{
+    width: 1100px;
+    margin: 20px auto;
+
+    header{
+        width: 100%;
+
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+            
+            li{
+                a{
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: black;
+                    margin-left: 50px;
+                }
+            }
+
+            .title{
+                color: #FF6464;
+            }
+        }
+    }
+
+    main{
+        width: 750px;
+        margin: 100px auto 10px;
+
+        h2{
+            font-size: 44px;
+            font-weight: 700;
+        }
+
+        ul{
+            list-style: none;
+
+            li{
+                border-bottom: 1.5px solid #E0E0E0;
+                padding-bottom: 20px;
+                margin: 40px 0;
+
+                h3{
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+
+                .data{
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 0;
+
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+
+                    div{
+                        width: 2.5px;
+                        height: 20px;
+                        background-color: lightgrey;
+                        margin: 0 20px;
+                    }
+
+                    .a{
+                        color: #8695A4;
+                    }
+                }
+
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+
+            li:last-child{
+                padding-bottom: 40px;
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+
+        .socials{
+            ul{
+                list-style: none;
+                display: flex;
+
+                li{
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-weight: 400;
+            padding-left: 30px;
+            padding-top: 7px;
+        }
+    }
+}

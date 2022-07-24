@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.home-page{
+    width: 1100px;
+    margin: 20px auto;
+
+    header{
+        width: 100%;
+
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+            
+            li{
+                a{
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: black;
+                    margin-left: 50px;
+                }
+            }
+
+            .title{
+                color: #FF6464;
+            }
+        }
+    }
+
+    main{
+        width: 820px;
+        margin: 100px auto 10px;
+
+        h2{
+            font-size: 44px;
+            font-weight: 700;
+        }
+
+        ul{
+           list-style: none;
+
+            li{
+                display: grid;
+                grid-template-columns: 240px 570px;
+                gap: 25px;
+                align-items: center;
+                padding: 30px 0;
+                border-bottom: 1.5px solid #E0E0E0;
+                margin-bottom: 20px;
+
+                .item-info{
+                    a{
+                        font-size: 30px;
+                        font-weight: 700;
+                        text-decoration: none;
+                        color: black;
+                    }
+    
+                    .data{
+                        display: flex;
+                        align-items: center;
+                        padding: 23px 0;
+                        gap: 30px;
+    
+                        .text1{
+                            font-size: 18px;
+                            font-weight: 900;
+                            background-color: #142850;
+                            width: 65px;
+                            color: white;
+                            border-radius: 20px;
+                            text-align: center;
+                        }
+    
+                        .text2{
+                            color: #8695A4;
+                            font-size: 20px;
+                            font-weight: 400px;
+                        }
+                    }
+    
+                    p{
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }    
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+
+        .socials{
+            ul{
+                list-style: none;
+                display: flex;
+
+                li{
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-weight: 400;
+            padding-left: 30px;
+            padding-top: 7px;
+        }
+    }
+}
